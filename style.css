@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+
+.container{
+    min-width: 800px; 
+    margin: 30px auto;
+}
+
+.container h1{
+    margin: 30px 0;
+}
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 30px;
+    border: 1px solid black;
+    border-radius: 4px;
+    color: #151d31;
+    background-color: #f4f7fe;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.4);
+    margin-bottom: 70px;
+}
+
+form label{
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+form input, textarea{
+    padding: 10px 10px;
+    outline: none;
+    border: 1px solid black;
+}
+
+form input[type="file"]{
+    background-color: #fff;
+}
+
+form h3{
+    font-size: 20px;
+    margin-top: 50px ;
+    border-bottom: 2px solid black;
+}
+
+
+form #submit-button{
+    padding: 10px 0;
+    margin-top: 15px;
+    background-color: #d0d6e3;
+    color: #333742;
+    font-size: 16px;
+    font-weight: 700;
+    border: 1px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+form #submit-button:hover{
+    color: #d0d6e3;
+    background-color: #333742;
+}
+
+/* .popup-container {
+    position: fixed;
+    top: 10px;
+    right: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    z-index: 1000;
+}
+
+.pop-up {
+    background-color: #333;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 5px 15px;
+    border-radius: 4px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+    opacity: 0;
+    transform: translateX(100%);
+    animation: slideIn 0.5s forwards;
+} 
+
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateX(100%);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+} */
+
+.output{
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 4px;
+    padding: 10px 30px;
+    box-shadow: 4px 8px 15px rgba(0, 0, 0, 0.5);
+    background-color: #d0d6e3;
+    outline: none;
+    margin-top: 30px;
+    display: none;
+    position: relative;
+}
+
+
+.output h2{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 30px;
+    border-bottom: 3px solid black;
+}
+
+.output h3{
+    font-size: 22px;
+    font-weight: 700;
+    color: #333742;
+    margin: 30px 0;
+    border-bottom: 3px solid black;
+    display: inline-block;
+}
+
+.output p{
+    padding: 10px 0;
+    outline: none;
+}
+
+.picture{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 1px solid black;
+    object-fit: cover;
+    margin: 20px 0;
+}
+
+.shareable-link-container button{
+    padding: 7px 20px;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: rgb(15, 84, 188);
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    margin-top: 20px;
+    cursor: pointer;
+    margin: 20px 0;
+}
+
+.shareable-link-container{
+    display: none;
+}

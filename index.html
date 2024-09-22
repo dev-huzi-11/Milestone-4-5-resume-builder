@@ -1,0 +1,109 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Builder</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="container">
+        <h1>Resume Builder By Huzaifa Nazeer</h1>
+        <form class="resume-form">
+            <h3>Personal Information</h3>
+
+            <label for="name">UserName</label>
+            <input type="text" id="user-name" placeholder="Enter userName" required />
+
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="Enter Your Name" required />
+
+            <label for="email">Email</label>
+            <input type="text" id="email" placeholder="Email" required />
+
+            <label for="tel">Phone</label>
+            <input type="text" id="phone" placeholder="Phone" required />
+
+            <label for="picture">Profile Picture</label>
+            <input type="file" id="profile-picture" accept="image/*" required/>
+
+            <h3>Education</h3>
+
+            <label for="education">Education</label>
+            <textarea id="education" placeholder="Enter Your Education Details"></textarea>
+
+            <h3>Skills</h3>
+
+            <label for="skills">Skills</label>
+            <textarea id="skills" placeholder="Enter Your Skills"></textarea>
+
+            <h3>Experience</h3>
+
+            <label for="experience">Experience</label>
+            <textarea id="experience" placeholder="Enter Your Experience"></textarea>
+
+            <button id="submit-button" type="submit">Generate Your Resume</button>
+        </form>
+        <div class="output">
+        </div>
+
+        <div class="shareable-linkcontainer">
+            <button id="shareable-link" class="shareable-link"></button>
+            <button id="download-pdf">Download PDF</button>
+        </div>        
+
+    <div class="popup-container">
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.3/html2pdf.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Builder</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="container">
+        <h1>Resume Builder By Huzaifa Nazeer</h1>
+        <form class="resume-form">
+            <h3>Personal Information</h3>
+            <label for="user-name">UserName</label>
+            <input type="text" id="user-name" placeholder="Enter userName" required />
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="Enter Your Name" required />
+            <label for="email">Email</label>
+            <input type="text" id="email" placeholder="Email" required />
+            <label for="phone">Phone</label>
+            <input type="text" id="phone" placeholder="Phone" required />
+            <label for="profile-picture">Profile Picture</label>
+            <input type="file" id="profile-picture" accept="image/*" required/>
+            <h3>Education</h3>
+            <label for="education">Education</label>
+            <textarea id="education" placeholder="Enter Your Education Details"></textarea>
+            <h3>Skills</h3>
+            <label for="skills">Skills</label>
+            <textarea id="skills" placeholder="Enter Your Skills"></textarea>
+            <h3>Experience</h3>
+            <label for="experience">Experience</label>
+            <textarea id="experience" placeholder="Enter Your Experience"></textarea>
+            <button id="submit-button" type="submit">Generate Your Resume</button>
+        </form>
+        <div class="output"></div>
+        <div class="shareable-link-container">
+            <button id="shareable-link">Copy Shareable Link</button>
+            <button id="download-pdf">Download PDF</button>
+            <button id="edit-button">Edit</button>
+            <button id="save-button" >Save</button>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.3/html2pdf.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
